@@ -17,4 +17,4 @@ find_package(Boost CONFIG REQUIRED system filesystem)
 
 add_executable(foo foo.cpp)
 
-target_link_libraries(NoobEdit Boost::boost Boost::system Boost::filesystem)
+target_link_libraries(NoobEdit PUBLIC Boost::boost Boost::system Boost::filesystem)
